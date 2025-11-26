@@ -44,7 +44,7 @@ def run_and_measure(script):
     print(f"{script}: real = {real:.3f}s, user = {user:.3f}s, sys = {sys_time:.3f}s, max memory = {max_rss / 1024:.0f} KB")
 
 if __name__ == "__main__":
-    scripts = ["factorization_prime.py", "factorization_best.py", "pollards_rho.py"]
+    scripts = ["findLargestPalindrome.py", "findLargestPalindrome_fast.py", "findLargestPalindrome_best.py"]
     
     for script in scripts:
         run_and_measure(script)
